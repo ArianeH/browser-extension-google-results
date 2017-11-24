@@ -12,8 +12,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://www.google.de/*",
+        "https://www.google.de/*"
       ],
       "css": ["style.css"],
       "js": ["icon_placement.js"]
