@@ -7,5 +7,15 @@
 
   "browser_action": {
     "default_icon": "fundraising-icon.png"
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": ["icon_placement.js"]
+    }
+  ]
 }
