@@ -4,3 +4,9 @@
   left: 0;
   top: 5px;
 }
+.additional-margin {
+  margin-left: 100px;
+}
+.removed-margin {
+  margin-left: -100px;
+}
