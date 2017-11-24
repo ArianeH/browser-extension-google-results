@@ -1,8 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Extension marking cooperating companies",
-  "version": "versionString",
+  "version": "0.1",
 
-  "default_locale": "en",
-  "description": "Extension to inform users about companies cooperating in fundraising by adding icons to google search results."
+  "description": "Extension to inform users about companies cooperating in fundraising by adding icons to google search results.",
+
+  "browser_action": {
+    "default_icon": "fundraising-icon.png"
+  }
 }
