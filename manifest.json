@@ -15,6 +15,7 @@
         "http://*/*",
         "https://*/*"
       ],
+      "css": ["style.css"],
       "js": ["icon_placement.js"]
     }
   ]
