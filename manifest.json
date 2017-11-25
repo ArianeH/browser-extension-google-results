@@ -16,7 +16,8 @@
         "https://www.google.de/*"
       ],
       "css": ["style.css"],
-      "js": ["icon_placement.js"]
+      "js": ["icon_placement.js"],
+      "run_at": "document_end"
     }
   ]
 }
