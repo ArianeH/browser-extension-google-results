@@ -15,7 +15,7 @@ window.onload = function getUrls(){
   }
 
   function addIconForFundraisers() {
-    if ((urlText.indexOf("goertz") != -1) || (urlText.indexOf("schuhcenter") != -1)) {
+    if ((/www.goertz.de/.test(urlText)) || (/www.schuhcenter.de/.test(urlText))) {
       wrapperOfSearchResultBlock.classList.add("removed-margin");
       searchResultInfo.classList.add("additional-margin");
       linkToUrl.classList.add("additional-margin");
