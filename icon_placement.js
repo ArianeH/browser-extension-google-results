@@ -10,7 +10,7 @@ window.onload = function getUrls(){
 
     var icon = document.createElement("img");
     icon.className = "fundraiser-icon";
-    icon.src = "http://www.bellevuehighptsa.com/wp/wp-content/uploads/2016/03/icon_grant.png";
+    icon.src = chrome.extension.getURL("fundraiser-icon.png");
     addIconForFundraisers();
   }
 

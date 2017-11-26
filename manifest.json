@@ -17,10 +17,11 @@
       ],
       "css": ["style.css"],
       "js": ["icon_placement.js"],
-      "run_at": "document_start"
+      "run_at": "document_end"
     }
   ],
-  "permissions": [
-    "activeTab"
-  ]
+
+  "web_accessible_resources": ["fundraiser-icon.png"],
+
+  "permissions": ["activeTab"]
 }
