@@ -6,7 +6,7 @@
   "description": "Extension to inform users about companies cooperating in fundraising by adding icons to google search results.",
 
   "browser_action": {
-    "default_icon": "fundraising-icon.png"
+    "default_icon": "extension-icon.png"
   },
 
   "content_scripts": [
@@ -17,7 +17,10 @@
       ],
       "css": ["style.css"],
       "js": ["icon_placement.js"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     }
+  ],
+  "permissions": [
+    "activeTab"
   ]
 }
